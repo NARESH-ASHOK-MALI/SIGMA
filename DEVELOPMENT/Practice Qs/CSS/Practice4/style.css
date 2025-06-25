@@ -1,0 +1,39 @@
+#rec1 {
+    border:2px solid ;
+    height:700px;
+    width:300px;
+    padding:10px 5px 5px 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+#rec2 {
+    border: 2px solid;
+    height:690px;
+    width:290px;
+    background-color: aquamarine;
+    border-radius:7px ;
+}
+#cir1{
+    border:2px solid;
+    height:150px;
+    width:150px;
+    margin:65px;
+    border-radius: 75px;
+    background-color: red;
+}
+#cir2{
+    border:2px solid;
+    height:150px;
+    width:150px;
+    margin:65px;
+    border-radius: 75px;
+    background-color: yellow;
+}
+#cir3{
+    border:2px solid;
+    height:150px;
+    width:150px;
+    margin:65px;
+    border-radius: 75px;
+    background-color: green;
+}
