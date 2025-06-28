@@ -1,0 +1,48 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px lightseagreen solid;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px lightseagreen solid ; 
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 3px 4px 5px black;
+    display: flex;
+    font-size: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s ease-in;
+}
+.box:hover{
+    box-shadow:4px 5px 7px goldenrod ;
+    font-size: 55px;
+    height: 102px;
+    width: 102px;
+}
+#navbar{
+    height: 50px;
+    width: 900px;
+    border: 2px lightseagreen solid;
+    border-radius: 5px;
+    background-color: #ffcacc;
+    display: flex;
+    justify-content:flex-start;
+    align-content:center ;
+}
+.option{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}
