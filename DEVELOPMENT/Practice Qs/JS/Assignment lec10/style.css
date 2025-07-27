@@ -1,0 +1,19 @@
+#progress-bar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 5px; 
+    background-color: #007bff; 
+    width: 0%;
+}
+#di{
+    height: 2500px; 
+    padding-top: 50px; 
+    text-align: center;
+}
+.di{
+    background-color: green;
+}
+.ci{
+    background-color: white;
+}

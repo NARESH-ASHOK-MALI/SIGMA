@@ -1,27 +1,31 @@
-let todo=[];
+let btn=document.querySelector("button");
+let ul=document.querySelector("ul");
+let inp=document.querySelector("input");
 
-let req = prompt("Please enter your request");
-while (true) {
-    if (req=="Quit"||req=="quit") {
-        console.log("Quiting app....");
-        break;
+btn.addEventListener("click",function(){
+    let item=document.createElement("li");
+    item.innerText=inp.value;
+    ul.appendChild(item);
+    let delBtn=document.createElement("button");
+    delBtn.innerText="Completed";
+    delBtn.classList="Delete";
+    item.appendChild(delBtn);
+    console.log(inp.value);
+    inp.value="";
+})
+
+ul.addEventListener("click",function(e){
+    if (e.target.nodeName=="BUTTON") {
+        let listItem=e.target.parentElement;
+        listItem.remove();
+        console.log(`${listItem.innerText}`)
     }
-    if(req=="list"){
-        console.log("-----------");
-        for(let i=0;i<todo.length;i++){
-            console.log(i,todo[i]);
-        }
-        console.log("-----------");
-    }else if(req=="add"){
-        let task=prompt("Please enter the task you want add ...")
-        todo.push(task);
-        console.log("Task added");
-    }else if(req=="Delete"||req=="delete"){
-        let idx=prompt("Please enter the task you want to delete.");
-        todo.splice(idx,1);
-        console.log("Task deleted...");
-    }else{
-        console.log("Wrong request..");
-    }
-    req=prompt("Please enter your request");
-}
+})
+// let delBtns=document.querySelectorAll(".Delete"); Event delegation happens and it does not applies over 
+// // for(delBtn of delBtns){                         newly added elements hence wrong code
+//     delBtn.addEventListener("click",function(){
+//         let par =this.parentElement;
+//         console.log(par);
+//         par.remove();
+//     });
+// }
