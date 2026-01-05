@@ -1,0 +1,649 @@
+[
+  {
+    "domains": [
+      "aiims.ac.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.aiims.ac.in/"
+    ],
+    "name": "All India Institute of Medical Sciences"
+  },
+  {
+    "domains": [
+      "nls.ac.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.nls.ac.in/"
+    ],
+    "name": "National Law School of India University"
+  },
+  {
+    "domains": [
+      "iiitm.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Madhya Pradesh",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "https://www.iiitm.ac.in/"
+    ],
+    "name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior"
+  },
+  {
+    "domains": [
+      "sipi.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.sipi.edu"
+    ],
+    "name": "Southwestern Indian Polytechnic Institute"
+  },
+  {
+    "domains": [
+      "thenicc.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.thenicc.edu"
+    ],
+    "name": "Nebraska Indian Community College"
+  },
+  {
+    "domains": [
+      "haskell.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.haskell.edu/"
+    ],
+    "name": "Haskell Indian Nations University"
+  },
+  {
+    "domains": [
+      "sifc.edu"
+    ],
+    "country": "Canada",
+    "state-province": "Saskatchewan",
+    "alpha_two_code": "CA",
+    "web_pages": [
+      "http://www.sifc.edu/"
+    ],
+    "name": "Saskatchewan Indian Federated College"
+  },
+  {
+    "domains": [
+      "witc.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.witc.edu"
+    ],
+    "name": "Wisconsin Indianhead Technical College"
+  },
+  {
+    "domains": [
+      "usi.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.usi.edu/"
+    ],
+    "name": "University of Southern Indiana"
+  },
+  {
+    "domains": [
+      "uindy.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.uindy.edu/"
+    ],
+    "name": "University of Indianapolis"
+  },
+  {
+    "domains": [
+      "iupui.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.iupui.edu/"
+    ],
+    "name": "Indiana University/Purdue University at Indianapolis"
+  },
+  {
+    "domains": [
+      "indianatech.edu",
+      "indianatech.net"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.indianatech.edu/"
+    ],
+    "name": "Indiana Institute of Technology"
+  },
+  {
+    "domains": [
+      "iu.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.iu.edu/"
+    ],
+    "name": "Indiana University"
+  },
+  {
+    "domains": [
+      "iupuc.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.iupuc.edu/"
+    ],
+    "name": "Indiana University/Purdue University at Columbus"
+  },
+  {
+    "domains": [
+      "ipfw.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.ipfw.edu/"
+    ],
+    "name": "Indiana University/Purdue University at Fort Wayne"
+  },
+  {
+    "domains": [
+      "iupui.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.iupui.edu/"
+    ],
+    "name": "Indiana University/Purdue University at Indianapolis"
+  },
+  {
+    "domains": [
+      "iup.edu"
+    ],
+    "country": "United States",
+    "state-province": "Pennsylvania",
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.iup.edu/"
+    ],
+    "name": "Indiana University of Pennsylvania"
+  },
+  {
+    "domains": [
+      "iusb.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.iusb.edu/"
+    ],
+    "name": "Indiana University at South Bend"
+  },
+  {
+    "domains": [
+      "indiana.edu",
+      "iub.edu",
+      "bloomington.iu.edu"
+    ],
+    "country": "United States",
+    "state-province": "Indiana",
+    "alpha_two_code": "US",
+    "web_pages": [
+      "https://bloomington.iu.edu/"
+    ],
+    "name": "Indiana University - Bloomington"
+  },
+  {
+    "domains": [
+      "ius.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.ius.edu/"
+    ],
+    "name": "Indiana University Southeast"
+  },
+  {
+    "domains": [
+      "indwes.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.indwes.edu/"
+    ],
+    "name": "Indiana Wesleyan University, Marion"
+  },
+  {
+    "domains": [
+      "indstate.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.indstate.edu/"
+    ],
+    "name": "Indiana State University"
+  },
+  {
+    "domains": [
+      "indianhills.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.indianhills.edu"
+    ],
+    "name": "Indian Hills Community College"
+  },
+  {
+    "domains": [
+      "irsc.edu"
+    ],
+    "country": "United States",
+    "state-province": null,
+    "alpha_two_code": "US",
+    "web_pages": [
+      "http://www.irsc.edu/"
+    ],
+    "name": "Indian River State College"
+  },
+  {
+    "domains": [
+      "iari.ernet.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iari.ernet.in/"
+    ],
+    "name": "Indian Agricultural Research Institute"
+  },
+  {
+    "domains": [
+      "iur.ac.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iur.ac.in/"
+    ],
+    "name": "Indian University"
+  },
+  {
+    "domains": [
+      "altmedworld.net"
+    ],
+    "country": "India",
+    "state-province": "West Bengal",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.altmedworld.net/"
+    ],
+    "name": "Indian Board of Alternative Medicine"
+  },
+  {
+    "domains": [
+      "ili.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Delhi",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "https://www.ili.ac.in/"
+    ],
+    "name": "Indian Law Institue"
+  },
+  {
+    "domains": [
+      "ivri.nic.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.ivri.nic.in/"
+    ],
+    "name": "Indian Veterinary Research Institute"
+  },
+  {
+    "domains": [
+      "iiitvadodara.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Gujarat",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://iiitvadodara.ac.in/"
+    ],
+    "name": "Indian Institute of Information Technology, Vadodara"
+  },
+  {
+    "domains": [
+      "iiitkota.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Rajasthan",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://iiitkota.ac.in/"
+    ],
+    "name": "Indian Institute of Information Technology, Kota"
+  },
+  {
+    "domains": [
+      "iiitg.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Assam",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iimtrichy.ac.in/"
+    ],
+    "name": "Indian Institute of Information Technology, Guwahati"
+  },
+  {
+    "domains": [
+      "iiita.com"
+    ],
+    "country": "India",
+    "state-province": "Uttar Pradesh",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iiita.com/"
+    ],
+    "name": "Indian Institute of Information Technology Allahabad"
+  },
+  {
+    "domains": [
+      "iiitmk.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Kerala",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iiitmk.ac.in/"
+    ],
+    "name": "Indian Institute of Information Technology and Management - Kerala"
+  },
+  {
+    "domains": [
+      "iiits.in"
+    ],
+    "country": "India",
+    "state-province": "Chittoor",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "https://www.iiits.ac.in/"
+    ],
+    "name": "Indian Institute of Information Technology Sri City"
+  },
+  {
+    "domains": [
+      "iitp.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Bihar",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitp.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Patna"
+  },
+  {
+    "domains": [
+      "iitr.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Uttarakhand",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitr.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Roorkee"
+  },
+  {
+    "domains": [
+      "iith.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Telangana",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iith.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Hyderabad"
+  },
+  {
+    "domains": [
+      "iitj.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Rajasthan",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitj.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Jodhpur"
+  },
+  {
+    "domains": [
+      "iitb.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Maharashtra",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitb.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Bombay"
+  },
+  {
+    "domains": [
+      "iitg.ernet.in",
+      "iitg.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Assam",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitg.ernet.in/",
+      "http://www.iitg.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Guwahati"
+  },
+  {
+    "domains": [
+      "iitgn.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Gujarat",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "https://iitgn.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Gandhinagar"
+  },
+  {
+    "domains": [
+      "iiti.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Madhya Pradesh",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iiti.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Indore"
+  },
+  {
+    "domains": [
+      "iitd.ernet.in",
+      "iitd.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Delhi",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitd.ernet.in/",
+      "https://home.iitd.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Delhi"
+  },
+  {
+    "domains": [
+      "iitkgp.ernet.in",
+      "iitkgp.ac.in"
+    ],
+    "country": "India",
+    "state-province": "West Bengal",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitkgp.ernet.in/",
+      "http://www.iitkgp.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Kharagpur"
+  },
+  {
+    "domains": [
+      "iitk.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Uttar Pradesh",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitk.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Kanpur"
+  },
+  {
+    "domains": [
+      "iitm.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Tamil Nadu",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iitm.ac.in/"
+    ],
+    "name": "Indian Institute of Technology, Madras"
+  },
+  {
+    "domains": [
+      "iitrpr.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Punjab",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "https://www.iitrpr.ac.in/"
+    ],
+    "name": "Indian Institute Of Technology–Ropar (IIT–Ropar)"
+  },
+  {
+    "domains": [
+      "iimtrichy.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Tamil Nadu",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iimtrichy.ac.in/"
+    ],
+    "name": "Indian Institute of Management, Tiruchirappalli"
+  },
+  {
+    "domains": [
+      "iisc.ernet.in",
+      "iisc.ac.in"
+    ],
+    "country": "India",
+    "state-province": "Karnataka",
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.iisc.ernet.in/",
+      "http://iisc.ac.in/"
+    ],
+    "name": "Indian Institute of Science"
+  },
+  {
+    "domains": [
+      "ismdhanbad.ac.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.ismdhanbad.ac.in/"
+    ],
+    "name": "Indian School of Mines (ISM)"
+  },
+  {
+    "domains": [
+      "isbm.org.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://isbm.org.in/"
+    ],
+    "name": "Indian School of Business Management and Administration"
+  },
+  {
+    "domains": [
+      "isical.ac.in"
+    ],
+    "country": "India",
+    "state-province": null,
+    "alpha_two_code": "IN",
+    "web_pages": [
+      "http://www.isical.ac.in/"
+    ],
+    "name": "Indian Statistical Institute"
+  }
+]
