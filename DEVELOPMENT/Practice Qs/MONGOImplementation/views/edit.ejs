@@ -3,14 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Your Chat</title>
+    <title>miniTwitter &mdash; Edit Chat</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Edit Your Chat:<%=chat.id%></h1>
-    <h1>This chat was sent from: <b><%=chat.from%></b> to: <b><%=chat.To%></b></h1>
-    <form method="POST" action="/chats/<%=chat._id%>?_method=PUT">
-        <textarea name="msg" rows="6" cols="50"><%=chat.msg%></textarea>
-        <button>Edit</button>
-    </form>
+
+    <!-- Top Bar -->
+    <nav class="topbar">
+        <a href="/chats" class="brand">&#9889; miniTwitter</a>
+        <a href="/chats" class="btn btn-secondary">&#8592; Back to Chats</a>
+    </nav>
+
+    <!-- Form -->
+    <div class="form-wrapper">
+        <div class="form-card">
+            <h2>&#9998; Edit Chat</h2>
+            <p class="subtitle">Update the message content below</p>
+
+            <!-- Info Box -->
+            <div class="edit-info">
+                <span>From:</span> <%=chat.from%>
+                &nbsp;&rarr;&nbsp;
+                <span>To:</span> <%=chat.To%>
+            </div>
+
+            <form method="POST" action="/chats/<%=chat._id%>?_method=PUT">
+
+                <div class="form-group">
+                    <label for="msg">&#128172; Message</label>
+                    <textarea id="msg" name="msg" rows="6"><%=chat.msg%></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <a href="/chats" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">&#10003; Save Changes</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>

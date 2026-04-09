@@ -3,18 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Send A message</title>
+    <title>miniTwitter &mdash; New Chat</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h3>Write your message</h3>
-    <form action="/chats" method="POST">
-        <input placeholder="Who Are You?" name="from" >
-        <br><br>
-        <textarea name="msg" >Write your message here........</textarea>
-        <br><br>
-        <input placeholder="Add Receiver" name="To" >
-        <br><br>
-        <button>Create chat</button>
-    </form>
+
+    <!-- Top Bar -->
+    <nav class="topbar">
+        <a href="/chats" class="brand">&#9889; miniTwitter</a>
+        <a href="/chats" class="btn btn-secondary">&#8592; Back to Chats</a>
+    </nav>
+
+    <!-- Form -->
+    <div class="form-wrapper">
+        <div class="form-card">
+            <h2>&#128172; New Chat</h2>
+            <p class="subtitle">Send a message to someone on miniTwitter</p>
+
+            <form action="/chats" method="POST">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="from">&#128100; From</label>
+                        <input id="from" type="text" name="from" placeholder="Your name" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="To">&#128101; To</label>
+                        <input id="To" type="text" name="To" placeholder="Receiver&apos;s name" required autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="msg">&#128172; Message</label>
+                    <textarea id="msg" name="msg" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <a href="/chats" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-success">&#10003; Send Message</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>

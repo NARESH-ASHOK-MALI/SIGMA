@@ -3,34 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>miniTwitter</title>
-    <link rel="stylesheet" href="style.css">
+    <title>miniTwitter &mdash; All Chats</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
-    <h1>All Chats!</h1>
-    <form action="/chats/new" method="GET">
-        <button>New Chat</button>
-    </form>
-    <br>
-    <%for (let chat of chats){%>
-        <div class="chat">
-            <p>From:<%=chat.from%></p>
-            <div class="msg">
-                <p><%=chat.msg%></p>
-                <form method="GET" action="/chats/<%=chat._id%>/edit">
-                    <button>Edit</button>
-                </form>
-                <br>
-                <form method="POST" action="/chats/<%=chat._id%>/?_method=DELETE">
-                    <button>Delete</button>
-                </form>
-            </div>
-            <p>Recieved By:<%=chat.To%></p>
-            <hr>
-            <p>Time:<%=chat.created_at.toString().split(" ")[4] %></p>
-            <p>Date:<%=chat.created_at.toString().split(" ").slice(0, 4).join(" ") %></p>
+
+    <!-- Top Bar -->
+    <nav class="topbar">
+        <a href="/chats" class="brand">&#9889; miniTwitter</a>
+        <a href="/chats/new" class="btn btn-primary">&#43; New Chat</a>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>All Chats</h1>
+        <p>Browse and manage all conversations</p>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="stat-num"><%=chats.length%></div>
+            <div class="stat-label">Total Chats</div>
         </div>
-    <%}%>
+        <div class="stat-item">
+            <div class="stat-num"><%=new Set(chats.map(c=>c.from)).size%></div>
+            <div class="stat-label">Senders</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-num"><%=new Set(chats.map(c=>c.To)).size%></div>
+            <div class="stat-label">Receivers</div>
+        </div>
+    </div>
+
+    <% if(chats.length === 0) { %>
+        <!-- Empty State -->
+        <div class="empty-state">
+            <div class="empty-icon">&#128172;</div>
+            <h3>No chats yet</h3>
+            <p>Start a conversation by clicking &ldquo;New Chat&rdquo;</p>
+            <a href="/chats/new" class="btn btn-primary">&#43; Create First Chat</a>
+        </div>
+    <% } else { %>
+        <!-- Chat Grid -->
+        <div class="chats-grid">
+            <% for (let chat of chats) { %>
+                <div class="chat-card">
+
+                    <!-- Participants -->
+                    <div class="chat-participants">
+                        <div class="participant-badge">
+                            <div class="avatar avatar-from"><%=chat.from.charAt(0)%></div>
+                            <span><%=chat.from%></span>
+                        </div>
+                        <span class="arrow-icon">&#8594;</span>
+                        <div class="participant-badge">
+                            <div class="avatar avatar-to"><%=chat.To.charAt(0)%></div>
+                            <span><%=chat.To%></span>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="chat-msg-box"><%=chat.msg%></div>
+
+                    <!-- Meta -->
+                    <div class="chat-meta">
+                        <span>&#128339; <%=chat.created_at.toString().split(" ")[4]%></span>
+                        <span>&#128197; <%=chat.created_at.toString().split(" ").slice(0,4).join(" ")%></span>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="chat-actions">
+                        <form method="GET" action="/chats/<%=chat._id%>/edit">
+                            <button class="btn btn-warning">&#9998; Edit</button>
+                        </form>
+                        <form method="POST" action="/chats/<%=chat._id%>/?_method=DELETE">
+                            <button class="btn btn-danger">&#128465; Delete</button>
+                        </form>
+                    </div>
+
+                </div>
+            <% } %>
+        </div>
+    <% } %>
+
 </body>
 </html>

@@ -14,8 +14,9 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use(express.urlencoded({extended:true}));  
 app.use(methodOverride('_method')); 
 
-main().then(()=>{console.log("Connection Sucessfull")}).catch(err => console.log(err));
-async function main() {await mongoose.connect('mongodb://127.0.0.1:27017/twitter');}
+const MONGO_URL = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/minitwitter';
+main().then(()=>{console.log("MongoDB connected:", MONGO_URL)}).catch(err => console.log(err));
+async function main() {await mongoose.connect(MONGO_URL);}
 
 app.get('/',(req,res)=>{
     res.send('Hello World');
