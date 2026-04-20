@@ -33,7 +33,9 @@ public class trappingrainwater042 {
 
     }
     public static void main(String[] args) {
+        // Example elevation map: bars form valleys that can hold water between higher boundaries.
         int[] height = {0, 1, 0,  2, 1, 0, 1, 3, 2, 1, 2, 1};
+        // For this sample, the total trapped water is 6 units.
         int result = trappedRainwater(height);
         System.out.println("Trapped rainwater: " + result);
     }
