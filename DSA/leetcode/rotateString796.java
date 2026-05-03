@@ -1,6 +1,6 @@
-public class rotateString {
+public class rotateString796 {
     public static void main(String[] args) {
-        rotateString solution = new rotateString();
+        rotateString796 solution = new rotateString796();
         System.out.println(solution.rotateString("abcde", "cdeab")); // true
         System.out.println(solution.rotateString("abcde", "abced")); // false
     }
