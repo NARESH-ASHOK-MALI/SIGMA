@@ -8,6 +8,41 @@ import java.util.List;
 public class restoreIpAddresses {
     public static void main(String[] args) {
         restoreIpAddresses solution = new restoreIpAddresses();
-        String s = "25525511135";}
+        String s = "25525511135";
+        List<String> result = solution.restoreIpAddresses(s);
+        System.out.println(result); // Output: ["255.255.11.135","255.255.111.35"]
+    }
+    public List<String> restoreIpAddresses(String s) {
+        List<String> result = new ArrayList<>();
+        backtrack(result, new ArrayList<>(), s, 0);
+        return result;
+
+    }
+    private void backtrack(List<String> result, List<String> current, String s, int start) {
+        if (current.size() == 4) {
+            if (start == s.length()) {
+                result.add(String.join(".", current));
+            }
+            return;
+        }
+        for (int i = start; i < Math.min(start + 3, s.length()); i++) {
+            String segment = s.substring(start, i + 1);
+            if (isValid(segment)) {
+                current.add(segment);
+                backtrack(result, current, s, i + 1);
+                current.remove(current.size() - 1);
+            }
+        }
+    }
+    private boolean isValid(String segment) {
+        if (segment.length() == 0 || segment.length() > 3) {
+            return false;
+        }
+        if (segment.charAt(0) == '0' && segment.length() > 1) {
+            return false;
+        }
+        int value = Integer.parseInt(segment);
+        return value >= 0 && value <= 255;
+    }
 
 }
