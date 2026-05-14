@@ -9,9 +9,26 @@ public class twosum1bf {
         int target = 9;
         System.out.println(pairSum(list, target));
     }
-    public static boolean pairSum(ArrayList<Integer> list , int target){
-        int lp=0;
-        int rp=list.size()-1;
+    public int[] twoSum(int[] numbers, int target) {
+        int lp = 0;
+        int rp = numbers.length - 1;
+        int[] res = new int[2];
+
+        while (lp < rp) {
+            int totalsum = numbers[lp] + numbers[rp];
+
+            if (totalsum == target) {
+                res[0] = lp + 1; // 1-based index
+                res[1] = rp + 1;
+                return res;
+            } else if (totalsum > target) {
+                rp--;
+            } else {
+                lp++;
+            }
+        }
+
+        return res; 
     }
     public static boolean pairSum1(ArrayList<Integer> list , int target){
         for(int i = 0; i < list.size(); i++){
