@@ -1,13 +1,5 @@
 // Given a singly linked list, remove all nodes that have a node with a greater value anywhere to their right in the list. Return the head of the modified linked list.
-public class Node{
-    int data;
-    Node next;
 
-    public Node(int data){
-        this.data = data;
-        this.next = null;
-    }
-}
 class DeleteNodesGreaterThanRight {
     public Node removeNodes(Node head) {
         if (head == null || head.next == null) {
