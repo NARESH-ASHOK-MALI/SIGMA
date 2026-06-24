@@ -111,5 +111,35 @@ public class LinkedList{
         tail.next = null;
         size--;
     }
+    public void search(int key){
+        // Start from the head of the list
+        Node current = head;
+        int index = 0;
+        // Traverse the list to find the node with the given key
+        while(current != null){
+            if(current.data == key){
+                System.out.println("Element found at index: " + index);
+                return;
+            }
+            current = current.next;
+            index++;
+        }
+        // If the key is not found, print a message
+        System.out.println("Element not found in the list.");
+    }
+    public void searchRecursive(Node current, int key, int index){
+        // Base case: if the current node is null, the key is not found
+        if(current == null){
+            System.out.println("Element not found in the list.");
+            return;
+        }
+        // If the current node's data matches the key, print the index
+        if(current.data == key){
+            System.out.println("Element found at index: " + index);
+            return;
+        }
+        // Recur for the next node and increment the index
+        searchRecursive(current.next, key, index + 1);
+    }
 
 }
