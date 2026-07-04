@@ -9,7 +9,7 @@
 // A path is a sequence of roads between two cities.
 // It is allowed for a path to contain the same road multiple times, and you can visit cities 1 and n multiple times along the path.
 // The test cases are generated such that there is at least one path between 1 and n.
-public class MinimumScoreofaPathBetweenTwoCities {
+public class MinimumScoreofaPathBetweenTwoCities2492 {
     public int minScore(int n, int[][] roads) {
         List<int[]>[] graph = new List[n + 1];
         for (int i = 1; i <= n; i++) {
