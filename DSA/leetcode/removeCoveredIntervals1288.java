@@ -37,3 +37,4 @@ public class removeCoveredIntervals1288{
         return count;
     }
 }
+// Time Complexity: O(n log n) due to sorting the intervals.
