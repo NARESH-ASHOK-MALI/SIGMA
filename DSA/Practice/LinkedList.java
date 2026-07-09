@@ -141,5 +141,51 @@ public class LinkedList{
         // Recur for the next node and increment the index
         searchRecursive(current.next, key, index + 1);
     }
+    public Node swapNodes(Node head, Node x, Node y) {
+        // If x and y are the same, no need to swap
+        if (x == y) {
+            return head;
+        }
+
+        // Search for x (keep track of prevX and currX)
+        Node prevX = null, currX = head;
+        while (currX != null && currX != x) {
+            prevX = currX;
+            currX = currX.next;
+        }
+
+        // Search for y (keep track of prevY and currY)
+        Node prevY = null, currY = head;
+        while (currY != null && currY != y) {
+            prevY = currY;
+            currY = currY.next;
+        }
+
+        // If either x or y is not present, do nothing
+        if (currX == null || currY == null) {
+            return head;
+        }
+
+        // If x is not head of linked list
+        if (prevX != null) {
+            prevX.next = currY;
+        } else { // make y the new head
+            head = currY;
+        }
+
+        // If y is not head of linked list
+        if (prevY != null) {
+            prevY.next = currX;
+        } else { // make x the new head
+            head = currX;
+        }
+
+        // Swap next pointers
+        Node temp = currX.next;
+        currX.next = currY.next;
+        currY.next = temp;
+
+        return head;
+    }
 
 }
