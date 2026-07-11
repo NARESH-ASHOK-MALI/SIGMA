@@ -5,7 +5,7 @@
 // A connected component is a subgraph of a graph in which there exists a path between any two vertices, and no vertex of the subgraph shares an edge with a vertex outside of the subgraph.
 
 // A connected component is said to be complete if there exists an edge between every pair of its vertices.
-public class CounttheNumberofCompleteComponents {
+public class CounttheNumberofCompleteComponents2685 {
     public int countCompleteComponents(int n, int[][] edges) {
         List<Integer>[] graph = new List[n];
         for (int i = 0; i < n; i++) {
